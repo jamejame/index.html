@@ -1,0 +1,14 @@
+/* Navigation Section */ 
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	width: 970 px;
+	height: 70 px;
+	margin: 0 auto;
+}
+
+.top-navigation > .content > .logo {
+	margin-left: 14 px;
+
+}
