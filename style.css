@@ -7,8 +7,10 @@
 	height: 70 px;
 	margin: 0 auto;
 }
-
-.top-navigation > .content > .logo {
-	margin-left: 14 px;
-
+/*.top-navigation > .content > .links {
+	float: right;
+}*/
+.top-navigation > .content > .links > li {
+	display: inline-block;
 }
+
