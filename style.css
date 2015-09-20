@@ -19,7 +19,7 @@ html {
 	background-color: #fff;
 }
 
-.top-navigation .content {
+.top-navigation .content, .introduction .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
@@ -42,3 +42,32 @@ html {
 	color: #333333;
 }
 
+
+.introduction {
+	background-image: url("images/first-background-copy.jpg");
+	background-position: 0 center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+
+.introduction .content {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.introduction h1 {
+	vertical-align: baseline;
+
+	font-size: 3.125rem;
+}
+
+.big-button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
+}
