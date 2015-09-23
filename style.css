@@ -45,22 +45,23 @@ html {
 
 .introduction {
 	background-image: url("images/first-background-copy.jpg");
-	background-position: 0 center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
-	overflow: auto;
+	font-weight: 500;
+	display: inline-block;
+	width: 100%;
 }
 
 .introduction .content {
 	color: white;
 	text-align: center;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 .introduction h1 {
 	vertical-align: baseline;
-
+	text-align: center;
 	font-size: 3.125rem;
 }
 
@@ -70,4 +71,26 @@ html {
 	border-radius: 4px;
 	padding: 16px 26px;
 	line-height: 1.33;
+	width: 9.688rem;
+	background-color: #f15a29;
+	font-size: 1.125rem;
+	color: white;
+	margin: 0 auto;
+
+}
+
+.cases {
+	display: block;
+	font-weight: 500;
+	text-align: center;
+
+}
+
+.cases .devices {
+	width: 33.3333333%;
+	display: inline-block;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
 }
