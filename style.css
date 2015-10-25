@@ -17,29 +17,37 @@ html {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	height: 4.375rem;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
+
 }
 
-.top-navigation .content, .introduction .content {
-	width: 970px;
-	height: 70px;
-	margin: 0 auto;
+.top-navigation .content {
+	width: 60%;
+	margin-left: 16.5em;
+}
+.top-navigation .content .logo {
+	position: relative;
 }
 
 .top-navigation .links {
 	margin-top: -3em;
-	margin-left: 20em;
+	margin-left: 14em;
 }
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 1.7em;
 }
 .top-navigation .links > .active {
-	color: #4c5058;
+	color: #333333;
 	font-weight: 500;
 }
 .top-navigation .links li:hover{
 	cursor: pointer;
-	color: #333333;
+	color: #4c5058;
 }
 
 
@@ -48,7 +56,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
-	font-weight: 500;
+	font-weight: 530;
 	display: inline-block;
 	width: 100%;
 }
@@ -57,12 +65,26 @@ html {
 	color: white;
 	text-align: center;
 	font-weight: 500;
+	margin-top: 17.5rem;
 }
 
+.top-navigation .content .introduction .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
 .introduction h1 {
 	vertical-align: baseline;
 	text-align: center;
 	font-size: 3.125rem;
+	font-weight: 300;
+}
+
+.introduction h3 {
+	vertical-align: baseline;
+	text-align: center;
+	font-size: 1.563rem;
+	font-weight: 300;
 }
 
 .big-button {
@@ -81,8 +103,11 @@ html {
 
 .cases {
 	display: block;
-	font-weight: 500;
+	font-weight: 300;
+	font-size: 2.75rem;
+	font-color: #333333;
 	text-align: center;
+	margin: 8rem 0 3.125rem;
 
 }
 
@@ -93,4 +118,5 @@ html {
 	border: 1px solid black;
 	box-sizing: border-box;
 	height: 4em;
+
 }
