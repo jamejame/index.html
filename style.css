@@ -28,6 +28,7 @@ html {
 .top-navigation .content {
 	width: 60%;
 	margin-left: 16.5em;
+	font-style: gray;
 }
 .top-navigation .content .logo {
 	position: relative;
@@ -40,14 +41,15 @@ html {
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 1.7em;
+	color: #C0C0C0;
 }
 .top-navigation .links > .active {
-	color: #333333;
+	color: #708090;
 	font-weight: 500;
 }
 .top-navigation .links li:hover{
 	cursor: pointer;
-	color: #4c5058;
+	color: #696969;
 }
 
 
