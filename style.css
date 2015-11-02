@@ -125,7 +125,9 @@ html {
 .flex-container {
 	padding: 0;
 	margin: 0;
+	margin-left: 30%;
 	list-style: none;
+	width: 600px;
 
 	display: -webkit-box;
 	display: -moz-box;
@@ -135,4 +137,9 @@ html {
 
 	-webkit-flex-flow: row wrap;
 	justify-content: space-around;
+}
+
+.icons {
+	border-radius: 50px 50px 50px 50px
+	background-color: blue;
 }
